@@ -32,27 +32,10 @@ export const projectData = [
     github: "https://github.com/ImpiusVenatus/pandaHR-frontend",
   },
   {
-    name: "cs2bd",
-    fullName: "CS2BD",
-    img: "/projects/cs2bd.png",
-    description:
-      "CS2BD is the ultimate platform for Counter Strike 2 players in Bangladesh!",
-    link: "https://cs2bd.vercel.app",
-    github: "https://github.com/ImpiusVenatus/cs2",
-  },
-  {
     name: "storefren",
     fullName: "Storefren",
     img: "/projects/storefren.png",
     description: "Storefren is your friendly neighborhood store assistant!",
     link: "https://storefren.com",
-  },
-  {
-    name: "grassforgamers",
-    fullName: "Grass For Gamers",
-    img: "/projects/gfg2.png",
-    description: "Grass For Gamers is a silly unfinished project of sorts!",
-    link: "https://grassforgamers.vercel.app",
-    github: "https://github.com/FunsaiSushi/grassforgamers",
   },
 ];
