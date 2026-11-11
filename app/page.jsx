@@ -14,11 +14,14 @@ const projects = [
   { name: "nihonfren", link: "https://nihonfren.com", intro: "learn japanese" },
   ...[
     ["storefren", "manage your store"],
+    ["wallfren", "video wallpapers for mac", "https://wallfren.vercel.app"],
+    ["frendm", "downloads for mac", "https://frendm.vercel.app"],
     ["boopclub", "the internet's town square"],
     ["pandaHR", "manage your team"],
     ["kreeshee", "shop fresh produce"],
-  ].map(([name, intro]) => ({
+  ].map(([name, intro, link]) => ({
     ...projectData.find((project) => project.name === name),
+    ...(link ? { name, link } : {}),
     intro,
   })),
 ];
